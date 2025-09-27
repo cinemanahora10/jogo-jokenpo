@@ -1,0 +1,77 @@
+/* Estilos gerais para o corpo da página e centralização do conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal do jogo */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+/* Seção com os botões de escolha */
+.opcoes {
+    margin: 30px 0;
+}
+
+.opcao {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito visual ao passar o mouse sobre os botões de escolha */
+.opcao:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Área que exibe o resultado da jogada */
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+#mensagem-final {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    min-height: 30px; /* Evita que o layout "pule" quando o texto da mensagem muda */
+}
+
+/* Estilo do botão de reiniciar */
+#reiniciar {
+    margin-top: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#reiniciar:hover {
+    background-color: #c82333;
+}
